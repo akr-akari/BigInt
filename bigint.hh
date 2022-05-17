@@ -18,7 +18,7 @@
 #include <tuple>
 
 #ifdef  _MSC_VER
-#if _MSC_VER <= 1931
+#if _MSC_VER <= 1932
 #pragma warning(push)
 #pragma warning(disable: 4455)
 consteval auto operator""zu(unsigned long long value) noexcept
